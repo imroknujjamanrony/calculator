@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>z-index and css variebles</title>
+  <style>
+    :root{
+      --primary-color:green;
+      --secondary-color:black;
+    }
+    div{
+      height: 250px;
+      width: 50%;
+    }
+    #div1{
+      background-color: var(--primary-color);
+      position: absolute;
+      z-index: 1;
+      
+    }
+    #div2{
+      background-color: rgb(131, 1, 218);
+      position: absolute;
+      left:100px;
+      top:100px;
+    }
+    @media screen and (max-width:600px) {
+      :root{
+      --primary-color:rgb(91, 13, 236);
+      --secondary-color:black;
+    }
+
+    }
+
+  </style>
+</head>
+<body>
+  <div id="div1"></div>
+  <div id="div2"></div>
+  
+</body>
+</html>

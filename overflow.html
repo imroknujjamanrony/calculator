@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>overflow and tooltip</title>
+  <style>
+        div{
+          height:70px;
+          width:200px;
+          background-color: antiquewhite;
+          border:2px solid red;
+          overflow:scroll;
+        }
+        .tooltip{
+          position:relative;
+        }
+        .tooltip .tooltip-text{
+          visibility: hidden;
+          width:150px;
+          background-color: rgb(25, 27, 27);
+          color: aliceblue;
+          padding: 5px;
+          border-radius: 5px;
+          position:absolute;
+          top:30px;
+          left:30px;
+          z-index: 1;
+        }
+
+        .tooltip:hover .tooltip-text{
+          visibility:visible;
+        }
+
+
+
+  </style>
+</head>
+<body>
+  <a href="#" class="tooltip">Facebook 
+      <span class="tooltip-text">>Facebook is a social media</span>
+  </a>
+  <p></p>
+  <div>Dolores vero dolores lorem est lorem dolor dolor. Sed tempor erat invidunt diam dolores et dolores. Eirmod nonumy consetetur dolore erat magna. Labore et duo erat lorem duo. Sed voluptua voluptua nonumy sed vero sit duo, dolores sed duo voluptua diam. Nonumy elitr et erat lorem gubergren erat sadipscing clita dolor. Kasd takimata no aliquyam rebum stet invidunt nonumy, justo aliquyam sit ut eirmod lorem justo dolore sed est, sit amet takimata labore sit dolor erat. Clita et kasd sed diam et, kasd invidunt sanctus ut gubergren at sea. Eos dolor vero ipsum dolor et ut. Sanctus lorem est eos sadipscing ut, lorem erat et ipsum elitr amet magna sanctus magna consetetur. Aliquyam sea no sea dolores stet amet kasd tempor consetetur. Justo vero et dolor magna. Ut ea et dolor lorem et kasd diam. Erat ipsum gubergren sed consetetur sed sed, sea rebum consetetur accusam lorem sadipscing sanctus at, diam amet rebum elitr accusam sanctus sed magna sea clita, et eos est sed vero eos magna. Ut sed lorem sadipscing duo kasd eirmod, diam sed dolor consetetur ipsum diam sed aliquyam nonumy diam. Erat justo ea sit voluptua justo sit sea amet, dolor lorem et aliquyam justo ea sit ipsum sanctus, et sanctus et lorem takimata, voluptua vero magna eirmod sed nonumy. Amet lorem et consetetur consetetur lorem. Accusam diam labore sanctus ipsum takimata sea invidunt gubergren, takimata no gubergren duo et sanctus kasd consetetur. Sadipscing dolores ut labore amet magna. Labore consetetur vero sanctus voluptua tempor vero, sed diam aliquyam erat lorem vero et dolores, clita lorem justo eos lorem dolor dolor dolor. Gubergren clita sea sit elitr takimata, eos amet rebum sit accusam accusam sed aliquyam. Nonumy ipsum amet sanctus voluptua takimata accusam sea eos ut. Sed at sit tempor ea, elitr labore labore sed accusam stet ea, amet sed dolor erat at dolore gubergren clita magna vero. Erat dolore dolor eirmod justo stet lorem vero ipsum elitr. Kasd labore eirmod labore dolores sit et et, kasd tempor diam sadipscing aliquyam aliquyam, no clita diam dolore elitr ut eos voluptua, eirmod sit sed ipsum eirmod sea, et dolor et lorem lorem duo invidunt amet. Clita erat aliquyam labore nonumy diam gubergren elitr at est, ut et dolor amet ut no sit stet, dolore at sed eirmod est consetetur lorem ipsum. Sit ut aliquyam gubergren erat amet consetetur eirmod, erat erat vero kasd sadipscing stet dolor takimata. Sadipscing sadipscing et elitr dolor clita sit labore lorem sed, justo elitr sed sed duo kasd dolore consetetur lorem. Vero voluptua et diam sed lorem kasd dolores stet sanctus, no magna lorem amet justo, sea amet sed takimata diam voluptua, elitr no ipsum sit dolor. Ipsum diam aliquyam lorem dolor takimata invidunt rebum dolores, dolor aliquyam no duo et eirmod. Kasd stet vero et lorem justo sed gubergren amet, justo at dolor ea et sadipscing sed. Sed dolor diam magna et elitr amet, dolor ea duo tempor voluptua stet et. Ea nonumy dolor gubergren erat erat dolore no et, accusam nonumy.</div>
+  
+</body>
+</html>

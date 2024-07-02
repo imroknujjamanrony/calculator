@@ -1,0 +1,10 @@
+.gradient-style{
+  height: 400px;
+  width: 100%;
+ background-image: linear-gradient(to right, red, green,black);
+}
+
+#section1{
+  background-color: white;
+
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>psudo class and element</title>
+  <style>
+
+    table,thead,tr,td{
+      border:2px solid red;
+    }
+      input{
+        color:aqua;
+        padding:10px;
+        font: size 1rem;
+        width: 150px;
+      }
+      input:focus{
+        background-color: rgb(0, 255, 21);
+        color: red;
+      }
+     li:nth-child(even){
+           background-color: aqua;
+           color: red;
+     }
+     li::first-letter{
+      font-size: 3rem;
+
+     }
+
+    .after::after{
+      content: '';
+      width: 500px;
+      height: 20px;
+      color: black;
+      background-color: aqua;
+      display: inline-block;
+    }
+    .after::before{
+      content: '';
+      width: 500px;
+      height: 20px;
+      color: black;
+      background-color: aqua;
+      display: inline-block;
+    }
+      
+  </style>
+</head>
+<body>
+  <a href="#">Tutorial</a>
+ <input type="text" placeholder="input your name">
+
+ 
+ <table>
+  <thead>
+    <tr>
+      <th>name</th>
+      <th>age</th>
+    </tr>
+    <tbody>
+      <tr>
+        <td>anis</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>rony</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>shakib</td>
+        <td>37</td>
+      </tr>
+    </tbody>
+  </thead> 
+ </table>
+  
+<div>
+ <ul>
+  <li>Rony1</li>
+  <li>Rony2</li>
+  <li>Rony3</li>
+  <li>Rony4</li>
+  <li>Rony5</li>
+  <li>Rony6</li>
+ </ul> 
+</div> 
+<div2 class="after">Traffic jam is a big problem, especially in densely populated cities. It wastes our precious time and brings misery to life. That is why traffic jams are an important issue that needs to be addressed. Since students often have to write paragraphs, compositions, and essays on traffic jams in school, we have shared a bunch of useful paragraphs and essays for students of different classes, like Traffic Jam Paragraph for Class 6, Traffic Jam Paragraph for Class 7, Traffic Jam Paragraph for Class 8, Traffic Jam Paragraph for SSC, Traffic Jam Paragraph for HSC, Traffic Jam Paragraph in 100-300 Words, and a composition on How Traffic Jam Lessen in 250 words. They highlight the causes of traffic jams and focus on solving these problems. Following them, you can write your own paragraph on traffic jam focusing on your home town.  </p> <p>Traffic jam is a common problem in our country. A traffic jam means a long line of vehicles stuck in jam. It is a regular scene in big cities and towns. Now it has become a serious problem. It creates a deplorable condition in our regular life.
+
+  There are many causes of traffic jams. Increasing the number of buses, trucks, autorickshaws, and rickshaws are the main causes of traffic jams. Overpopulation is also a cause. On the other hand, the traffic control system in our country is not developed.
+  
+  
+  Drivers are also responsible for this problem. Their lack of knowledge about traffic rules, overtaking tendency and parking here and there are one more causes of traffic jams. It causes untold suffering to the passengers and the movement of the vehicles.</p>
+
+</div>
+</body>
+</html>
